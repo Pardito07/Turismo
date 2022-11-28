@@ -1,0 +1,37 @@
+.page__heading{
+    padding: 3rem 0;
+}
+
+@media (min-width: 768px){
+    .page__map{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        align-items: center;
+    }
+}
+
+.page__iframe{
+    width: 100%;
+    height: 45rem;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px){
+    .page__iframe{
+        margin-bottom: 0;
+    }
+}
+
+.page__section{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.page__section:last-of-type{
+    margin-bottom: 0;
+}
+
+.page__text{
+    font-size: 1.8rem;
+}
